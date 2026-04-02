@@ -62,4 +62,4 @@ Este proyecto es una página personal desarrollada en HTML y CSS como parte de l
 
 ## Links
 - Repositorio: https://github.com/NatyBu26/PFO1-Mi-pagina-personal
-- Publicación: [Agregar link de la web]
+- Publicación: https://pfo-1-mi-pagina-personal.vercel.app/
