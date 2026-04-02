@@ -21,7 +21,7 @@ Este proyecto es una página personal desarrollada en HTML y CSS como parte de l
 - [x] La tipografía importada se aplica en el sitio.
 - [x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
 
-**Respuesta:** Elegí Quicksand porque me pareció una tipografía clara, fácil de leer y, al mismo tiempo, estéticamente ligera, algo que combina bien con el estilo suave y personal de la página.
+**Respuesta:** Elegí Quicksand porque me pareció una tipografía clara, fácil de leer y, al mismo tiempo, estéticamente ligera, algo que combina bien con el estilo suave y personal de la página.Además, sumé Playfair Display para destacar el título principal, ya que aporta un estilo más elegante y le da más personalidad a la portada.
 
 ### HTML
 - [x] El documento inicia con la declaración DOCTYPE y usa el atributo `lang="es"`.
