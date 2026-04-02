@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f2e7ff;
+  color: #3d2f4d;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #d8b4fe, #c4b5fd);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+nav {
+  background-color: #8b5cf6;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: #fef3c7;
+}
+
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+section {
+  background-color: #fffaff;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #6d28d9;
+}
+
+#sobre-mi {
+  text-align: center;
+}
+
+#sobre-mi img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  max-width: 80%;
+  border-radius: 50%;
+  margin: 1rem 0;
+  border: 4px solid #d8b4fe;
+  box-shadow: 0 0.3rem 0.8rem rgba(109, 40, 217, 0.2);
+}
+
+#sobre-mi h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+#sobre-mi p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.contenedor-tarjetas,
+.contenedor-peliculas,
+.contenedor-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tarjeta {
+  flex: 1 1 300px;
+  background-color: #ead8ff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.pelicula {
+  flex: 1 1 300px;
+  background-color: #e4ccff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover,
+.pelicula:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta h3,
+.pelicula h3 {
+  margin-bottom: 0.8rem;
+  color: #7c3aed;
+  text-align: center;
+}
+
+.pelicula img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 0.8rem;
+}
+
+.habilidad {
+  background-color: #ddd3ec;
+  color: #443b50;
+  padding: 0.8rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  min-width: 140px;
+  text-align: center;
+}
+
+.subtitulo-habilidades {
+  margin: 0.8rem 0 0.6rem;
+  color: #7c3aed;
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.grilla-habilidades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.habilidad-cuadro {
+  background-color: #ddd3ec;
+  color: #443b50;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.06);
+}
+
+#series ul {
+  padding-left: 1.5rem;
+}
+
+#series li {
+  margin-bottom: 0.5rem;
+}
+
+#canciones p {
+  margin-bottom: 1rem;
+}
+
+#canciones a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  background-color: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+#canciones a:hover {
+  background-color: #6d28d9;
+}
+
+#contacto p {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  padding: 0.8rem;
+  border: 1px solid #d8b4fe;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6d28d9;
+}
+
+footer {
+  padding: 1.5rem;
+  background-color: #c4b5fd;
+  color: #3d2f4d;
+  font-weight: 600;
+}
+
+.contenedor-series {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.serie {
+  flex: 1 1 calc(33.333% - 1rem);
+  min-width: 300px;
+  background-color: #ead8ff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.serie:hover {
+  transform: translateY(-5px);
+}
+
+.serie img {
+  width: 90px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+
+.serie-texto {
+  flex: 1;
+}
+
+.serie h3 {
+  margin-bottom: 0.5rem;
+  color: #7c3aed;
+}
+
+.serie p {
+  font-size: 0.95rem;
+}
+
+.tarjeta p,
+.pelicula p,
+.serie p,
+#canciones p,
+#contacto p {
+  text-align: justify;
+}
+
+.footer-contenido {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.frase-footer {
+  flex: 1;
+  text-align: center;
+}
+
+.bloque-instagram {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-instagram-grande {
+  width: 70px;
+  height: auto;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.logo-instagram-grande:hover {
+  transform: scale(1.05);
+}
+
+.boton-playlist {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  white-space: nowrap;
+}
+
+.logo-spotify {
+  width: 45px;
+  height: 45px;
+  display: block;
+  object-fit: contain;
+  flex-shrink: 0;
+}
