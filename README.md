@@ -61,5 +61,5 @@ Este proyecto es una página personal desarrollada en HTML y CSS como parte de l
 - [x] Se añadieron comentarios en HTML para describir funciones de secciones y decisiones de diseño.
 
 ## Links
-- Repositorio: [Agregar link de GitHub]
+- Repositorio: https://github.com/NatyBu26/PFO1-Mi-pagina-personal
 - Publicación: [Agregar link de la web]
