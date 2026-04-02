@@ -349,3 +349,21 @@ footer {
   object-fit: contain;
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .grilla-habilidades {
+    grid-template-columns: 1fr;
+  }
+
+  .habilidad-cuadro {
+    width: 100%;
+  }
+
+  .contenedor-habilidades {
+    justify-content: center;
+  }
+
+  .habilidad {
+    min-width: 120px;
+  }
+}
